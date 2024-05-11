@@ -79,14 +79,14 @@ p {
     text-align: center;
     padding: 0;
   }
+  .about-section-content {
+    padding: 160px 60px;
+  }
   .about-section h1 {
     font-size: 64px;
   }
 }
 
-.about-section {
-  padding: 160px 60px;
-}
 .about-section h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
@@ -95,11 +95,22 @@ p {
 .about-section-content {
   margin: 30px;
 }
-.my-picture {
-  margin: 30px;
-  max-width: 500px;
-}
 
+.work-section {
+  text-align: center;
+  padding: 160px 60px;
+}
+.work-section h1 {
+  font-size: 64px;
+}
+.work-section h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
+.work-section p {
+  font-size: 14px;
+}
 .icon {
   color: var(--branding-color);
   font-size: 26px;
@@ -115,4 +126,8 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+}
+.my-picture {
+  margin: 30px;
+  max-width: 500px;
 }
