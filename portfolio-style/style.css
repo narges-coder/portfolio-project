@@ -19,6 +19,12 @@ h2 {
   font-weight: normal;
   font-size: 34px;
 }
+h4 {
+  font-family: var(--heading-font-family);
+  font-size: 42px;
+  font-weight: bold;
+}
+
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -84,6 +90,10 @@ p {
   }
   .about-section h1 {
     font-size: 64px;
+  }
+
+  h4 {
+    font-size: 24px;
   }
 }
 
@@ -155,15 +165,42 @@ nav li.active a {
   color: var(--branding-color);
 }
 
-.icon {
-  color: var(--branding-color);
-  font-size: 26px;
-  padding: 5px;
+footer {
+  margin: 60px 0;
 }
-.footer {
+footer .contact-box {
+  background-color: var(--secondry-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin-bottom: 0;
+}
+
+footer .email-link {
   text-align: center;
-  padding: 15px;
-  margin: 15px 15px 15px 15px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-icons a {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 18px;
+  margin: 0 20px;
+  background-color: var(--secondry-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  transform: all 100ms ease-in-out;
+}
+footer .social-icons a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 
 .navigation-links {
